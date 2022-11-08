@@ -1,0 +1,49 @@
+:root{ /* variables*/
+  /***** colours *****/
+  --namecolour: rgb(0, 0, 0);
+  --bgcolour:rgb(241, 232, 220);
+  --bdcolour: rgb(168, 146, 118);
+  --pcolour: rgb(242, 217, 185);
+  
+  /***** fonts styles *****/
+  --nfont: 'Allura'; /* name of website*/
+  --pfont: 'Mulish'; /* paragraphs*/
+  
+  /***** fonts sizes *****/
+  --nsize: 35px; /* name*/
+  --psize: 15px; /* paragraphs*/
+  /* padding*/
+  --padding: 5px 5px 5px 5px;
+  /* border radius*/
+  --bradius: 10px
+}
+
+body {
+    background-color: var(--bgcolour);
+  }
+  
+  h1 {
+    color: rgb(0, 0, 0);
+    font-family: var(--nfont);
+    font-size: var(--nsize);
+
+    margin-left: 20px;
+    width: 150px;
+    height:fit-content;
+    margin: 10px;
+    background-color: var(--bgcolour);
+    padding: var(--padding);
+    border: 2px solid black;
+    }
+  
+  p {
+    color: rgb(0, 0, 0);
+    font-family: var(--pfont);
+    font-size: var(--psize);
+
+    background-color: var(--pcolour);
+    padding:var(--padding);
+    border: 2px solid var(--bdcolour);
+    border-radius: var(--bradius);
+  }
+  
